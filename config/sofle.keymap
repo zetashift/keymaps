@@ -63,7 +63,7 @@
 
             bindings = <
 &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3          &bt BT_SEL 4                             &trans            &trans             &trans     &trans     &trans   &trans
-&kp K_CUT    &kp INS       &kp PSCRN     &kp K_CMENU     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PG_DN  &trans     &kp N0   &trans
+&kp K_CUT    &kp INS       &kp PSCRN     &kp PIPE        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PG_DN  &trans     &kp N0   &trans
 &kp K_PASTE  &kp LALT      &kp LCTRL     &kp LESS_THAN   &kp GREATER_THAN      &kp EQUAL                                &kp LEFT          &kp DOWN           &kp UP     &kp RIGHT  &kp DEL  &kp BSPC
 &trans       &kp K_UNDO    &kp K_COPY    &kp LEFT_BRACE  &kp RIGHT_BRACE       &trans                 &trans    &trans  &trans            &trans             &trans     &trans     &trans   &trans
                            &trans        &trans          &trans                &trans                 &trans    &trans  &trans            &trans             &trans     &trans
@@ -84,11 +84,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans     &kp F1       &kp F2     &kp F3       &kp F4    &kp PIPE                     &kp LESS_THAN     &kp GREATER_THAN   &kp F8           &kp F9     &kp F10   &kp F11
-&kp GRAVE  &kp N1       &kp N2     &kp N3       &kp N4    &kp N5                       &kp N6            &kp N7             &kp N8           &kp N9     &kp N0    &kp F12
-&trans     &kp EXCL     &kp AT     &kp HASH     &kp DLLR  &kp EQUAL                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp PIPE
-&trans     &kp PERCENT  &kp MINUS  &kp KP_PLUS  &kp LBRC  &kp RBRC   &trans    &trans  &kp CARET         &kp PERCENT        &kp SEMI         &kp COLON  &kp BSLH  &trans
-                        &trans     &trans       &trans    &trans     &trans    &trans  &trans            &trans             &trans           &trans
+&trans     &kp F1     &kp F2     &kp F3       &kp F4    &kp PIPE                       &kp LESS_THAN     &kp GREATER_THAN   &kp F8           &kp F9     &kp F10   &kp F11
+&kp GRAVE  &kp N1     &kp N2     &kp N3       &kp N4    &kp N5                         &kp N6            &kp N7             &kp N8           &kp N9     &kp N0    &kp F12
+&trans     &kp EXCL   &kp AT     &kp HASH     &kp DLLR  &kp PERCENT                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp PIPE
+&trans     &kp SLASH  &kp MINUS  &kp KP_PLUS  &kp LBRC  &kp RBRC     &trans    &trans  &kp CARET         &kp PERCENT        &kp SEMI         &kp COLON  &kp BSLH  &trans
+                      &trans     &trans       &trans    &trans       &trans    &trans  &trans            &trans             &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
